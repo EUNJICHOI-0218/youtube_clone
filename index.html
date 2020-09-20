@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube mobile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <i class="fas fa-bars"></i>
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="search_bar">
+            <input class="text_box" type="search" placeholder="Search">
+            <button class="search_button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="icons">
+            <button class="search"><i class="fas fa-search"></i></button>
+            <button class="add"><i class="fas fa-video"></i></button>
+            <button class="header_menu"><i class="fas fa-th"></i></button>
+            <button class="bell"><i class="fas fa-bell"></i></button>
+            <button><i class="fas fa-user"></i></button>
+        </div>
+    </header>
+
+
+    <section class="player">
+        <video controls src="video/canada1.mp4"> </video>
+    </section>
+
+    <div class="infoAndNext">
+        <section class="info">
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#DreamCoding</li>
+                    <li>#DreamCoders</li>
+                    <li>#Ellie</li>
+                </ul>
+                <div class="titlebutton">
+                    <span class="title clamp">
+                      Canada computer programming student V-LOG (I'm in Toronto) | What I did during a week
+                      Canada computer programming student V-LOG (I'm in Toronto) | What I did during a week
+                    </span>
+                    <button class="titlebtn">
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
+                </div>
+                <span class="views">1M views 1 month ago</span>
+                
+    
+            </div>
+           
+                <ul class="actions">
+                    <li>
+                        <button onclick="upup()"><i class="fas fa-thumbs-up"></i><span class="like_num">10</span></button>
+                    </li>
+                    <li>
+                        <button onclick="downdown()"><i class="fas fa-thumbs-down"></i><span class="dislike_num">2</span></button>
+                    </li>
+                    <li>
+                        <button><i class="fas fa-share"></i><span>Share</span></button>
+                    </li>
+                    <li>
+                        <button><i class="fas fa-plus"></i><span>Add</span></button>
+                    </li>
+                    <li>
+                        <button><i class="fas fa-flag"></i><span>Flag</span></button>
+                    </li>
+                </ul>
+                
+                
+           
+            <div class="channel">
+               <div class="metadata">
+                    <img src="./img/DSC04372.JPG" alt="pro">
+                    <div class="info">
+                        <span class="name">DreamCoding</span>
+                        <span class="subs">100k subscribers</span>
+                    </div>
+               </div>
+               
+                   <button class="sub">Subscribe</button>
+                   <div class="sub_ing">
+                       <button class="sub_ing_but">Subscribed</button>
+                       <button class="noti"><i class="far fa-bell"></i></button>
+                   </div>
+              
+            </div>
+        </section>
+    
+    
+        <section class="upNext">
+             <span class="title">
+                 Up Next
+             </span>
+             <ul>
+                 <li class="item">
+                     <div class="img"><img src="./img/썸녤.jpg" alt="Thum1"></div>
+                     <div class="info">
+                         <span class="title">Jeju Island V-LOG 1</span>
+                         <span class="name">Ange</span>
+                         <span class="views">400k views</span>
+                     </div>
+                     <button class="more">
+                        <i class="fa s fa-ellipsis-v"></i>
+                     </button>
+                 </li>
+                 <li class="item">
+                    <div class="img"><img src="./img/제주썸.jpg" alt="Thum2"></div>
+                    <div class="info">
+                        <span class="title">Jeju Island V-LOG 2</span>
+                        <span class="name">Ange</span>
+                        <span class="views">400k views</span>
+                    </div>
+                    <button class="more">
+                       <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                 </li>
+                 <li class="item">
+                    <div class="img"><img src="./img/제주썸넬.jpg" alt="Thum3"></div>
+                    <div class="info">
+                        <span class="title">Jeju Island V-LOG 3</span>
+                        <span class="name">Ange</span>
+                        <span class="views">400k views</span>
+                    </div>
+                    <button class="more">
+                       <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                 </li>
+             </ul>
+        </section>
+    </div>
+    <div class="pop1">
+        <div class="pop1_top">
+            <span class="pop1_title">공유</span>
+            <button><i class="fas fa-window-close"></i></button>
+        </div>
+        <div class="socials">
+            <div class="twitter">
+                <button><i class="fab fa-twitter"></i></button>
+                <span>Twitter</span>
+            </div>
+            <div class="facebook">
+                <button><i class="fab fa-facebook"></i></button>
+                <span>Face book</span>
+            </div>
+            <div class="tumblr">
+                <button><i class="fab fa-tumblr-square"></i></button>
+                <span>Tumblr</span>
+            </div>
+            <div class="reddit">
+                <button><i class="fab fa-reddit"></i></button>
+                <span>Reddit</span>
+            </div>
+            
+        </div>
+        <div class="copyUrl">
+            <input type="text" class="url" placeholder="www.youtube.com/helloEunji">
+            <button class="url_butt">복사</button>
+        </div>
+        
+    </div>
+    <div class="pop2">
+        <div class="pop2_top">
+            <span>저장하기</span>
+            <button><i class="fas fa-times"></i></button>
+        </div>
+        <div class="pop2_check">
+            <label><input type="checkbox">나중에 볼 동영상</label>
+            <label><input type="checkbox">자바 스크립트</label>
+            <label><input type="checkbox">프리미어 프로</label>
+        </div>
+        <div class="pop2_add">
+            <button><i class="fas fa-plus"></i></button>
+            <span>새 재생목록 만들기</span>
+        </div>
+    </div>
+    <div class="dark"></div>
+    
+</body>
+</html>
